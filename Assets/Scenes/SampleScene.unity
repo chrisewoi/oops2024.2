@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 327713027}
   - component: {fileID: 327713026}
   - component: {fileID: 327713025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -910,7 +910,7 @@ GameObject:
   - component: {fileID: 328415312}
   - component: {fileID: 328415311}
   - component: {fileID: 328415310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marble (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1779,7 +1779,7 @@ GameObject:
   - component: {fileID: 689052710}
   - component: {fileID: 689052709}
   - component: {fileID: 689052708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marble (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2184,7 +2184,7 @@ GameObject:
   - component: {fileID: 785200008}
   - component: {fileID: 785200007}
   - component: {fileID: 785200006}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marble (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2853,7 +2853,7 @@ GameObject:
   - component: {fileID: 924866651}
   - component: {fileID: 924866650}
   - component: {fileID: 924866649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Marble (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4130,6 +4130,7 @@ MonoBehaviour:
   powerup:
   - {fileID: 11400000, guid: 8154b720b4992ef47865987856ce5141, type: 2}
   - {fileID: 11400000, guid: 14319cfedb1f5364eab65b52dbb7dd2c, type: 2}
+  - {fileID: 11400000, guid: d5d493d77ce47234b80da369449f3ea6, type: 2}
   speed: 20
   totalPUChances: 0
 --- !u!1 &1460618263
