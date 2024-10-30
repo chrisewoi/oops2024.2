@@ -10,9 +10,11 @@ public class ItemBox : TriggerZone
     public int totalPUChances;
 
     float cooldown = 0;
+    
 
     public void Start()
     {
+        
         totalPUChances = 0;
         foreach (Powerup PU in powerup)
         {

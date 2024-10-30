@@ -14,6 +14,20 @@ public class HighscoreSystem : MonoBehaviour
     public Transform panel;
     public TMP_Text textPrefab;
 
+    public static HighscoreSystem ins;
+
+    private void Awake()
+    {
+        if (ins == null)
+        {
+            ins = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Start()
     {
         RefreshScoreDisplay();
